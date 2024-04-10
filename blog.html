@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Posts</title>
+    <link rel="stylesheet" href="./assets/css/blog.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>My Blog Posts</h1>
+        <!-- First bold line above blog posts -->
+        <hr style="border-top: 2px solid black;">
+        
+        <div id="blogPosts"></div>
+        
+        <!-- Second bold line below blog posts -->
+        <hr style="border-top: 2px solid black;">
+
+        <div class="button-container">
+            <button onclick="goBack()">
+                <span>&#8592; Back</span> <!-- Back arrow -->
+            </button>
+            <div class="brightness-icon" id="brightnessToggle">
+                <!-- Adjust width and height of SVG here -->
+                <img src="./assets/css/Brightness.jpg" alt="Brightness Icon" width="20" height="20">
+            </div>
+        </div>
+    </div>
+    <!-- Footer with attribution -->
+    <footer>
+        <a href="https://jhona11.github.io/challenge2/">Developer's Portfolio</a>
+        <p>Portfolio: Jhonalyn Golo</p>
+        <p>Blog: Full Stack Blog</p>
+        <p>Email: golo.jhonalyn@gmail.com</p>
+    </footer>
+
+    <!-- Attribution line -->
+    <p id="attribution"></p>
+
+    <!-- Script -->
+    <script src="./assets/js/blog.js"></script>
+</body>
+</html>
